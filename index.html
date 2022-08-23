@@ -37,6 +37,11 @@
             </li>
           </ul>
         </nav>
+        <button type="button" class="mobile-menu-open" data-menu-open>
+          <svg class="mobile-menu-open__icon" width="40" height="40">
+            <use href="./images/symbol-defs2.svg#icon-burger"></use>
+          </svg>
+        </button>
         <ul class="list contact-details page-header__contact-details">
           <li class="mail-link mail-link-header">
             <a class="link mail-link__header" href="mailto:info@devstudio.com"
@@ -53,6 +58,30 @@
             >
           </li>
         </ul>
+      </div>
+      <div class="mobile-menu" data-menu>
+        <div class="container mobile-menu__container">
+          <button class="mobile-menu__close-btn" data-menu-close>
+            <svg class="mobile-menu__close-icon" width="40px" height="40px">
+              <use href="./images/symbol-defs2.svg#icon-close-black"></use>
+            </svg>
+          </button>
+          <ul>
+            <li><a href="">link-1</a></li>
+            <li><a href="">link-2</a></li>
+            <li><a href="">link-3</a></li>
+          </ul>
+          <ul>
+            <li><a href="">link-1</a></li>
+            <li><a href="">link-2</a></li>
+          </ul>
+          <ul>
+            <li><a href="">link-1</a></li>
+            <li><a href="">link-2</a></li>
+            <li><a href="">link-3</a></li>
+            <li><a href="">link-4</a></li>
+          </ul>
+        </div>
       </div>
     </header>
     <main>
@@ -574,6 +603,7 @@
     <!--script-->
 
       <!--<script src="./js/modal.js"></script>-->
+      <script src="./js/mobile-menu.js"></script>
 
   </body>
 </html>
