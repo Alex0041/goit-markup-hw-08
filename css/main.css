@@ -423,6 +423,25 @@ img {
     width: 270px;
   }
 }
+/*0px-1199px*/
+@media screen and (max-width: 1199px) {
+  .work-examples {
+    display: none;
+  }
+  .work-examples__title {
+    display: none;
+  }
+  .work-examples__list {
+    display: none;
+  }
+  .example {
+    display: none;
+  }
+  .example__overlay {
+    display: none;
+  }
+}
+/*1200px*/
 .work-examples__title {
   color: var(--title-text-color);
   font-size: 36px;
