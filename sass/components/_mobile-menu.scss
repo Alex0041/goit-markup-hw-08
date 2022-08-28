@@ -41,6 +41,12 @@
   }
 }
 
+@media screen and (max-width: 379px) {
+  .mobile-social-list__item:nth-child(4) {
+    margin-top: 20px;
+  }
+}
+
 .link {
   text-decoration: none;
 }
