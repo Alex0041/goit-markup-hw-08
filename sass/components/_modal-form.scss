@@ -176,6 +176,14 @@
   }
 }
 
+/*362px-479px*/
+
+@media screen and (max-width: 479px) {
+  .modal-form-input-icon-mobile {
+    transform: translate(0, -110%);
+  }
+}
+
 /*334px-471px*/
 
 @media screen and (max-width: 471px) {
