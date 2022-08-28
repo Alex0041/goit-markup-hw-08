@@ -1,7 +1,18 @@
+/*0px-767px*/
+
+@media screen and (max-width: 767px) {
+  .projects-cart:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+
 .sample-projects {
-  display: flex;
   flex-wrap: wrap;
   gap: 30px;
+}
+
+.projects-cart__img {
+  width: 100%;
 }
 
 .projects-cart {
@@ -66,4 +77,22 @@
   padding: 20px 24px;
   border-top: none;
   background-color: var(--primary-white-color);
+}
+
+/*768px-1199*/
+
+@media screen and (min-width: 768px) {
+  .sample-projects {
+    display: flex;
+  }
+  .projects-cart {
+    flex-basis: calc((100% - 30px) / 2);
+  }
+}
+
+/*1200px*/
+@media screen and (min-width: 1200px) {
+  .projects-cart {
+    flex-basis: calc((100% - 60px) / 3);
+  }
 }

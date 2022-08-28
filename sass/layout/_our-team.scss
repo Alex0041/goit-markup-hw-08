@@ -110,7 +110,7 @@
     gap: 30px;
   }
   .team {
-    width: calc(50% - 15px);
+    flex-basis: calc((100% - 30px) / 2);
   }
 }
 
@@ -118,8 +118,9 @@
 
 @media screen and (min-width: 1200px) {
   .team {
-    width: 270px;
+    flex-basis: calc((100% - 90px) / 4);
   }
+
   .container-team__title {
     margin-bottom: 50px;
   }
